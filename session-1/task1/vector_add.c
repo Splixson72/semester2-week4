@@ -15,5 +15,10 @@
     Store your answer in array c
     Print your final answer
     */
+    for(int i=0;i<5;++i)
+    {
+      c[i] = a[i]+b[i];
+      print(c[i]);
+    }
     return 0;
  }

@@ -16,5 +16,21 @@
     Store your answer in matrix c
     Print your final answer
     */
+    for(int x = 0; x<4; ++x)
+    {
+      for(int y = 0;y<4;++y)
+      {
+         a[x,y] = 1;
+         b[x,y] = 1;
+      }
+    }
+    for(int x = 0; x<4; ++x)
+    {
+      for(int y = 0; y<4; ++y)
+      {
+         c[x,y] = a[x,y] + b[x,y];
+         printf("a + b is %f", c[x,y]);
+      }
+    }
     return 0;
  }
