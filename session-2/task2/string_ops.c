@@ -14,7 +14,8 @@ int main( void ) {
     // use printf to verify the following tests
 
     // use 'strcmp' to compare 2 strings - print the return value
-
+    printf("%d, %s, %s\n ",strcmp(str1,str2), str1, str2);
+    printf("%d, %s, %s\n ",strcmp(str2,str2), str2, str2);
     // use 'strcat' to concatenate 2 strings - print the resulting string
 
     // use 'strcpy' to copy a string into str3 - print string 3
